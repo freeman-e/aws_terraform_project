@@ -2,7 +2,7 @@
      cidr_block = "10.0.1.0/24"
 
      tags = {
-      Name = "TerraformLab_Keith"
+      Name = "TerraformLab_Freeman"
      }
  }
  resource "aws_internet_gateway" "gateway" {
