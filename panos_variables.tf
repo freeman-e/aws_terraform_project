@@ -19,7 +19,7 @@ variable "availability_zone" {
 
 # VPC configuration
 variable "vpc_cidr_block" {
-    default = "10.88.0.0/16"
+    default = "x.x.x.x/24"
 }
 
 variable "vpc_instance_tenancy" {
@@ -49,7 +49,7 @@ variable "trust_subnet_cidr_block" {
 variable "pavm_payg_bun2_ami_id" {
 //    type = map
     default = {
-          us-east-2 = "ami-9ef3c5fb"
+          us-east-2 = ""ami-0603cbe34fd08cb81"
     }
 }
 
